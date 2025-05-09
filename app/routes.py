@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from app.scrapers.reddit_spider import fetch_reddit_ideas
 from app.scrapers.hn_spider import fetch_hn_ideas
-from app.scrapers.ph_spider import fetch_ph_ideas  # <== New Import
+from app.scrapers.ph_spider import fetch_ph_ideas
 from app.storage import save_ideas
 
 router = APIRouter()
@@ -20,6 +20,15 @@ def get_hn_ideas():
 
 @router.get("/producthunt")
 def get_ph_ideas():
+    print("=== /producthunt endpoint hit ===")
     ideas = fetch_ph_ideas()
-    save_ideas("producthunt", ideas)
+    print("=== Ideas fetched from scraper ===")
+    print(ideas)
+
+    if ideas:
+        print("✅ Data fetched, saving to JSON")
+        save_ideas("producthunt", ideas)
+    else:
+        print("❌ No data fetched from Product Hunt.")
+
     return {"ideas": ideas}

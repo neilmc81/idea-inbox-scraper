@@ -9,6 +9,7 @@ def save_ideas(platform, ideas):
             data = json.load(file)
 
         if platform not in data:
+            print(f"Platform '{platform}' not found in JSON file. Creating it.")
             data[platform] = []
 
         # Add a timestamp
@@ -22,4 +23,4 @@ def save_ideas(platform, ideas):
 
         print(f"{len(ideas)} ideas saved to {platform} in idea_vault.json")
     except Exception as e:
-        print("Failed to save ideas:", e)
+        print("❌ Failed to save ideas:", e)

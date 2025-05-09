@@ -60,6 +60,66 @@
             "link": "https://royalsociety.org/blog/2025/05/hill-or-high-water/",
             "source": "Hacker News",
             "timestamp": "2025-05-09T06:37:46.907805"
+        },
+        {
+            "title": "LegoGPT: Generating Physically Stable and Buildable Lego",
+            "link": "https://avalovelace1.github.io/LegoGPT/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451786"
+        },
+        {
+            "title": "Void: Open-source Cursor alternative",
+            "link": "https://github.com/voideditor/void",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451797"
+        },
+        {
+            "title": "6502 Illegal Opcodes in the Siemens PC 100 Assembly Manual (1980)",
+            "link": "https://www.pagetable.com/?p=1798",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451799"
+        },
+        {
+            "title": "Dead Reckoning",
+            "link": "https://www.damninteresting.com/dead-reckoning/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451802"
+        },
+        {
+            "title": "Doge software engineer's computer infected by info-stealing malware",
+            "link": "https://arstechnica.com/security/2025/05/doge-software-engineers-computer-infected-by-info-stealing-malware/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451803"
+        },
+        {
+            "title": "Starlink User Terminal Teardown",
+            "link": "https://www.darknavy.org/blog/a_first_glimpse_of_the_starlink_user_ternimal/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451805"
+        },
+        {
+            "title": "Reservoir Sampling",
+            "link": "https://samwho.dev/reservoir-sampling/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451807"
+        },
+        {
+            "title": "Zombieverter: Open source VCU for reusing salvage EV components",
+            "link": "https://openinverter.org/wiki/ZombieVerter_VCU",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451811"
+        },
+        {
+            "title": "Usenix ATC Announcement",
+            "link": "https://www.usenix.org/blog/usenix-atc-announcement",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451814"
+        },
+        {
+            "title": "A Formal Analysis of Apple's iMessage PQ3 Protocol [pdf]",
+            "link": "https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-595-linker.pdf",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T09:24:55.451817"
         }
     ],
     "producthunt": []
