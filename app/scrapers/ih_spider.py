@@ -6,48 +6,49 @@ from supabase import create_client, Client
 import logging
 import sys
 import traceback
+import requests
+from bs4 import BeautifulSoup
 
-# === DIRECT FILE WRITE TEST ===
+# Direct file write test - at the very start
+try:
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    log_file = os.path.join(project_root, 'scraper.log')
+    with open(log_file, 'a') as f:
+        f.write(f"\n--- INDIE HACKERS SCRAPER DIRECT WRITE TEST at {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n")
+except Exception as e:
+    print(f"ERROR WITH DIRECT WRITE: {e}")
+
+# === LOGGING CONFIGURATION ===
 try:
     # Dynamically find the project root (two levels up from this script)
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
     log_file = os.path.join(project_root, 'scraper.log')
-    print(f"Log file will be at: {log_file}")
     
-    # Try direct write to verify file is writeable
-    with open(log_file, 'a') as f:
-        f.write(f"\n--- DIRECT WRITE TEST at {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n")
-        f.write("If you can see this, the file is writable directly.\n")
-except Exception as e:
-    print(f"ERROR WRITING TO LOG FILE DIRECTLY: {e}")
-    traceback.print_exc()
-
-# === LOGGING CONFIGURATION ===
-try:
     # Remove all handlers associated with the root logger object (prevents duplicate logs)
     root_logger = logging.getLogger()
     if root_logger.hasHandlers():
         root_logger.handlers.clear()
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s | %(levelname)s | %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S',
-        handlers=[
-            logging.FileHandler(log_file, mode='a', encoding='utf-8'),
-            logging.StreamHandler()
-        ],
-        force=True  # Only available in Python 3.8+
-    )
-
+    # Create file handler with immediate flush
+    file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+    
+    # Create console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    
+    # Create formatter
+    formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+    
+    # Set up the root logger
+    logging.basicConfig(level=logging.INFO, handlers=[file_handler, console_handler], force=True)
+    
+    # Explicitly log and flush to verify logging is working
     logging.info("=== Logging system initialized successfully ===")
-    
-    # Verify handlers are attached
-    print(f"Current logging handlers: {[h.__class__.__name__ for h in logging.getLogger().handlers]}")
-    
-    # Second direct write test to check if logging might be working but not visible
-    with open(log_file, 'a') as f:
-        f.write("--- After logging setup direct write test ---\n")
+    for handler in logging.getLogger().handlers:
+        handler.flush()
 
 except Exception as e:
     print(f"ERROR SETTING UP LOGGING: {e}")
@@ -130,83 +131,70 @@ def batch_save_to_supabase(ideas, max_retries=3):
     logging.error("❌ Max retries reached. Some ideas were not inserted.")
     return False
 
-# 🚀 **Fetch Ideas from Product Hunt**
-def fetch_ph_ideas():
-    logging.info("=== Step 1: Fetching API Key ===")
-    api_key = os.getenv("PH_API_KEY")
-    logging.info("PH_API_KEY loaded.")
-
-    if not api_key:
-        logging.warning("⚠️  PH_API_KEY is missing! Please set it in your environment variables.")
-        return []
-
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-    }
-
-    url = "https://api.producthunt.com/v2/api/graphql"
-    query = """
-    {
-      posts(order: VOTES, first: 10) {
-        edges {
-          node {
-            name
-            description
-            url
-            votesCount
-          }
-        }
-      }
-    }
-    """
+# 🚀 **Fetch Ideas from Indie Hackers**
+def fetch_ih_ideas():
+    logging.info("=== Step 1: Fetching Latest Indie Hackers Posts ===")
+    for handler in logging.getLogger().handlers:
+        handler.flush()
+    
+    url = "https://www.indiehackers.com/post"
     
     try:
-        logging.info("=== Step 2: Creating Cloudscraper Session ===")
         scraper = cloudscraper.create_scraper()
+        response = scraper.get(url)
         
-        logging.info("=== Step 3: Sending POST request to Product Hunt API ===")
-        response = scraper.post(url, json={"query": query}, headers=headers)
-
-        logging.info("=== Step 4: Response Received ===")
-        logging.info(f"Status Code: {response.status_code}")
-        logging.info(f"Response Text: {response.text}")
-
         if response.status_code == 200:
-            logging.info("=== Step 5: Parsing Response ===")
-            data = response.json()
-            posts = data.get("data", {}).get("posts", {}).get("edges", [])
+            soup = BeautifulSoup(response.content, 'html.parser')
+            posts = soup.find_all('a', class_='title-link')
 
             ideas = []
             for post in posts:
-                node = post.get("node", {})
+                title = post.get_text(strip=True)
+                link = f"https://www.indiehackers.com{post['href']}"
+                
                 idea = {
-                    "title": node.get("name"),
-                    "description": node.get("description", "No description provided."),
-                    "link": node.get("url"),  # Will be normalized in batch_save_to_supabase
-                    "votes": node.get("votesCount"),
-                    "source": "Product Hunt",
+                    "title": title,
+                    "description": title,
+                    "link": link,
+                    "votes": 0,  # Indie Hackers does not provide vote count in the listing
+                    "source": "Indie Hackers",
                     "user_id": user_id
                 }
                 ideas.append(idea)
-            
-            logging.info("=== Step 6: Batch Saving Ideas ===")
+
+            logging.info("=== Step 2: Batch Saving Ideas ===")
+            for handler in logging.getLogger().handlers:
+                handler.flush()
+                
             batch_save_to_supabase(ideas)
             logging.info("✅ All ideas processed.")
+            for handler in logging.getLogger().handlers:
+                handler.flush()
         else:
-            logging.error(f"❌ Failed to fetch data from Product Hunt. Status Code: {response.status_code}")
-            logging.error(f"🔍 Response JSON: {response.json()}")
-            return []
+            logging.error(f"❌ Failed to fetch stories from Indie Hackers. Status Code: {response.status_code}")
+            for handler in logging.getLogger().handlers:
+                handler.flush()
     except Exception as e:
-        logging.error(f"❌ Exception occurred during Product Hunt Fetch: {e}")
-        return []
+        logging.error(f"❌ Exception occurred during Indie Hackers Fetch: {e}")
+        for handler in logging.getLogger().handlers:
+            handler.flush()
 
 # === Test run ===
 if __name__ == "__main__":
-    logging.info("=== Testing Product Hunt Scraper ===")
-    fetch_ph_ideas()
+    logging.info("=== Testing Indie Hackers Scraper ===")
+    try:
+        fetch_ih_ideas()
+    except Exception as e:
+        logging.error(f"Error in main execution: {e}")
+        traceback.print_exc()
 
 # Force flush all log handlers at the end
 for handler in logging.getLogger().handlers:
     handler.flush()
+
+# Final direct write test
+try:
+    with open(log_file, 'a') as f:
+        f.write(f"--- INDIE HACKERS SCRAPER COMPLETED at {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n\n")
+except Exception as e:
+    print(f"ERROR WITH FINAL DIRECT WRITE: {e}")

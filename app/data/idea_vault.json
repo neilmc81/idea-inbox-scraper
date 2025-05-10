@@ -1,5 +1,256 @@
 {
-    "reddit": [],
+    "reddit": [
+        {
+            "title": "How to find the right people to talk to to validate an idea (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1kikugi/how_to_find_the_right_people_to_talk_to_to/",
+            "timestamp": "2025-05-09T22:13:33.462967"
+        },
+        {
+            "title": "Having no startup idea sucks. I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kiklns/having_no_startup_idea_sucks_i_will_not_promote/",
+            "timestamp": "2025-05-09T22:13:33.462974"
+        },
+        {
+            "title": "[I will not promote] Developer who wants to get more experience fundraising on a broad level (not industry specific - see description)",
+            "link": "https://www.reddit.com/r/startups/comments/1kijwcu/i_will_not_promote_developer_who_wants_to_get/",
+            "timestamp": "2025-05-09T22:13:33.462976"
+        },
+        {
+            "title": "[I will not promote] Developer who wants to get more experience fundraising on a broad level (not industry specific - see description)",
+            "link": "https://www.reddit.com/r/startups/comments/1kijvn7/i_will_not_promote_developer_who_wants_to_get/",
+            "timestamp": "2025-05-09T22:13:33.462978"
+        },
+        {
+            "title": "Bootstrapping a B2B SaaS for ESG reporting \u2013 when do you know it's worth scaling vs. stopping? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kigd42/bootstrapping_a_b2b_saas_for_esg_reporting_when/",
+            "timestamp": "2025-05-09T22:13:33.462979"
+        },
+        {
+            "title": "Thinking of documenting my startup journey (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1kig1uh/thinking_of_documenting_my_startup_journey_i_will/",
+            "timestamp": "2025-05-09T22:13:33.462981"
+        },
+        {
+            "title": "Use Case: Startup with a fragile QA process ( I will not promote )",
+            "link": "https://www.reddit.com/r/startups/comments/1kif4p9/use_case_startup_with_a_fragile_qa_process_i_will/",
+            "timestamp": "2025-05-09T22:13:33.462982"
+        },
+        {
+            "title": "We built a platform to analyze app reviews. What would help you the most? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kif3j7/we_built_a_platform_to_analyze_app_reviews_what/",
+            "timestamp": "2025-05-09T22:13:33.462984"
+        },
+        {
+            "title": "Use Case: Startup with a fragile QA process, I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kif26g/use_case_startup_with_a_fragile_qa_process_i_will/",
+            "timestamp": "2025-05-09T22:13:33.462985"
+        },
+        {
+            "title": "How do I take it to the next level? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kieb11/how_do_i_take_it_to_the_next_level_i_will_not/",
+            "timestamp": "2025-05-09T22:13:33.462987"
+        },
+        {
+            "title": "Is this a good equity split as partner? (70/30 after successful 2 month head-start) I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kibbfk/is_this_a_good_equity_split_as_partner_7030_after/",
+            "timestamp": "2025-05-09T22:13:33.462988"
+        },
+        {
+            "title": "Feedback Friday",
+            "link": "https://www.reddit.com/r/startups/comments/1kiaipg/feedback_friday/",
+            "timestamp": "2025-05-09T22:13:33.462990"
+        },
+        {
+            "title": "What is the furthest a solo founder can realistically take things before hitting serious limitations? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1ki958u/what_is_the_furthest_a_solo_founder_can/",
+            "timestamp": "2025-05-09T22:13:33.462991"
+        },
+        {
+            "title": "A16Z Speedrun #005 - Anybody applied and heard back? (i will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1ki93ox/a16z_speedrun_005_anybody_applied_and_heard_back/",
+            "timestamp": "2025-05-09T22:13:33.462992"
+        },
+        {
+            "title": "Managing payments as an online marketplace: I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1ki8v11/managing_payments_as_an_online_marketplace_i_will/",
+            "timestamp": "2025-05-09T22:13:33.462994"
+        },
+        {
+            "title": "What's the story after your successful launch. I will not promote.",
+            "link": "https://www.reddit.com/r/startups/comments/1ki8fe3/whats_the_story_after_your_successful_launch_i/",
+            "timestamp": "2025-05-09T22:13:33.462995"
+        },
+        {
+            "title": "Unpaid Founding Dev vs CoFounder (i will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1ki6zgw/unpaid_founding_dev_vs_cofounder_i_will_not/",
+            "timestamp": "2025-05-09T22:13:33.462997"
+        },
+        {
+            "title": "How legaly risky is creating lead data base saas, even if I dont store emails and phone numbers? i will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1ki31v3/how_legaly_risky_is_creating_lead_data_base_saas/",
+            "timestamp": "2025-05-09T22:13:33.462998"
+        },
+        {
+            "title": "Anyone Else Overwhelmed by Saved Content? (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1ki28k5/anyone_else_overwhelmed_by_saved_content_i_will/",
+            "timestamp": "2025-05-09T22:13:33.463000"
+        },
+        {
+            "title": "Just Give Up Already [I will not promote]",
+            "link": "https://www.reddit.com/r/startups/comments/1ki1nk4/just_give_up_already_i_will_not_promote/",
+            "timestamp": "2025-05-09T22:13:33.463001"
+        },
+        {
+            "title": "4 Years, No Marketing, Real Product \u2014 Still Standing   {i will not promote}",
+            "link": "https://www.reddit.com/r/startups/comments/1khz2ql/4_years_no_marketing_real_product_still_standing/",
+            "timestamp": "2025-05-09T22:13:33.463002"
+        },
+        {
+            "title": "Equity and Cap Table Help i will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1khyodc/equity_and_cap_table_help_i_will_not_promote/",
+            "timestamp": "2025-05-09T22:13:33.463004"
+        },
+        {
+            "title": "YC\u2019s Summer 2025 \u201cRequest for Startups\u201d Is Out. Here\u2019s What They\u2019re Betting Big On. I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1khvykk/ycs_summer_2025_request_for_startups_is_out_heres/",
+            "timestamp": "2025-05-09T22:13:33.463005"
+        },
+        {
+            "title": "Equity in a startup within an established company (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1khvw2y/equity_in_a_startup_within_an_established_company/",
+            "timestamp": "2025-05-09T22:13:33.463007"
+        },
+        {
+            "title": "Wondering about SWE hiring process and coding tests like Leetcode (i will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1khvr3z/wondering_about_swe_hiring_process_and_coding/",
+            "timestamp": "2025-05-09T22:13:33.463008"
+        },
+        {
+            "title": "How to find the right people to talk to to validate an idea (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1kikugi/how_to_find_the_right_people_to_talk_to_to/",
+            "timestamp": "2025-05-09T22:20:51.461326"
+        },
+        {
+            "title": "Having no startup idea sucks. I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kiklns/having_no_startup_idea_sucks_i_will_not_promote/",
+            "timestamp": "2025-05-09T22:20:51.461333"
+        },
+        {
+            "title": "[I will not promote] Developer who wants to get more experience fundraising on a broad level (not industry specific - see description)",
+            "link": "https://www.reddit.com/r/startups/comments/1kijwcu/i_will_not_promote_developer_who_wants_to_get/",
+            "timestamp": "2025-05-09T22:20:51.461335"
+        },
+        {
+            "title": "[I will not promote] Developer who wants to get more experience fundraising on a broad level (not industry specific - see description)",
+            "link": "https://www.reddit.com/r/startups/comments/1kijvn7/i_will_not_promote_developer_who_wants_to_get/",
+            "timestamp": "2025-05-09T22:20:51.461337"
+        },
+        {
+            "title": "Bootstrapping a B2B SaaS for ESG reporting \u2013 when do you know it's worth scaling vs. stopping? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kigd42/bootstrapping_a_b2b_saas_for_esg_reporting_when/",
+            "timestamp": "2025-05-09T22:20:51.461338"
+        },
+        {
+            "title": "Thinking of documenting my startup journey (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1kig1uh/thinking_of_documenting_my_startup_journey_i_will/",
+            "timestamp": "2025-05-09T22:20:51.461340"
+        },
+        {
+            "title": "Use Case: Startup with a fragile QA process ( I will not promote )",
+            "link": "https://www.reddit.com/r/startups/comments/1kif4p9/use_case_startup_with_a_fragile_qa_process_i_will/",
+            "timestamp": "2025-05-09T22:20:51.461341"
+        },
+        {
+            "title": "We built a platform to analyze app reviews. What would help you the most? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kif3j7/we_built_a_platform_to_analyze_app_reviews_what/",
+            "timestamp": "2025-05-09T22:20:51.461342"
+        },
+        {
+            "title": "Use Case: Startup with a fragile QA process, I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kif26g/use_case_startup_with_a_fragile_qa_process_i_will/",
+            "timestamp": "2025-05-09T22:20:51.461344"
+        },
+        {
+            "title": "How do I take it to the next level? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kieb11/how_do_i_take_it_to_the_next_level_i_will_not/",
+            "timestamp": "2025-05-09T22:20:51.461345"
+        },
+        {
+            "title": "Is this a good equity split as partner? (70/30 after successful 2 month head-start) I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1kibbfk/is_this_a_good_equity_split_as_partner_7030_after/",
+            "timestamp": "2025-05-09T22:20:51.461347"
+        },
+        {
+            "title": "Feedback Friday",
+            "link": "https://www.reddit.com/r/startups/comments/1kiaipg/feedback_friday/",
+            "timestamp": "2025-05-09T22:20:51.461348"
+        },
+        {
+            "title": "What is the furthest a solo founder can realistically take things before hitting serious limitations? I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1ki958u/what_is_the_furthest_a_solo_founder_can/",
+            "timestamp": "2025-05-09T22:20:51.461349"
+        },
+        {
+            "title": "A16Z Speedrun #005 - Anybody applied and heard back? (i will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1ki93ox/a16z_speedrun_005_anybody_applied_and_heard_back/",
+            "timestamp": "2025-05-09T22:20:51.461351"
+        },
+        {
+            "title": "Managing payments as an online marketplace: I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1ki8v11/managing_payments_as_an_online_marketplace_i_will/",
+            "timestamp": "2025-05-09T22:20:51.461352"
+        },
+        {
+            "title": "What's the story after your successful launch. I will not promote.",
+            "link": "https://www.reddit.com/r/startups/comments/1ki8fe3/whats_the_story_after_your_successful_launch_i/",
+            "timestamp": "2025-05-09T22:20:51.461353"
+        },
+        {
+            "title": "Unpaid Founding Dev vs CoFounder (i will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1ki6zgw/unpaid_founding_dev_vs_cofounder_i_will_not/",
+            "timestamp": "2025-05-09T22:20:51.461355"
+        },
+        {
+            "title": "How legaly risky is creating lead data base saas, even if I dont store emails and phone numbers? i will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1ki31v3/how_legaly_risky_is_creating_lead_data_base_saas/",
+            "timestamp": "2025-05-09T22:20:51.461356"
+        },
+        {
+            "title": "Anyone Else Overwhelmed by Saved Content? (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1ki28k5/anyone_else_overwhelmed_by_saved_content_i_will/",
+            "timestamp": "2025-05-09T22:20:51.461358"
+        },
+        {
+            "title": "Just Give Up Already [I will not promote]",
+            "link": "https://www.reddit.com/r/startups/comments/1ki1nk4/just_give_up_already_i_will_not_promote/",
+            "timestamp": "2025-05-09T22:20:51.461359"
+        },
+        {
+            "title": "4 Years, No Marketing, Real Product \u2014 Still Standing   {i will not promote}",
+            "link": "https://www.reddit.com/r/startups/comments/1khz2ql/4_years_no_marketing_real_product_still_standing/",
+            "timestamp": "2025-05-09T22:20:51.461360"
+        },
+        {
+            "title": "Equity and Cap Table Help i will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1khyodc/equity_and_cap_table_help_i_will_not_promote/",
+            "timestamp": "2025-05-09T22:20:51.461362"
+        },
+        {
+            "title": "YC\u2019s Summer 2025 \u201cRequest for Startups\u201d Is Out. Here\u2019s What They\u2019re Betting Big On. I will not promote",
+            "link": "https://www.reddit.com/r/startups/comments/1khvykk/ycs_summer_2025_request_for_startups_is_out_heres/",
+            "timestamp": "2025-05-09T22:20:51.461363"
+        },
+        {
+            "title": "Equity in a startup within an established company (I will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1khvw2y/equity_in_a_startup_within_an_established_company/",
+            "timestamp": "2025-05-09T22:20:51.461365"
+        },
+        {
+            "title": "Wondering about SWE hiring process and coding tests like Leetcode (i will not promote)",
+            "link": "https://www.reddit.com/r/startups/comments/1khvr3z/wondering_about_swe_hiring_process_and_coding/",
+            "timestamp": "2025-05-09T22:20:51.461366"
+        }
+    ],
     "hackernews": [
         {
             "title": "LegoGPT: Generating Physically Stable and Buildable Lego",
@@ -120,7 +371,228 @@
             "link": "https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-595-linker.pdf",
             "source": "Hacker News",
             "timestamp": "2025-05-09T09:24:55.451817"
+        },
+        {
+            "title": "Sofie: open-source web based system for automating live TV news production",
+            "link": "https://nrkno.github.io/sofie-core/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272907"
+        },
+        {
+            "title": "Show HN: Aberdeen \u2013 An elegant approach to reactive UIs",
+            "link": "https://aberdeenjs.org/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272919"
+        },
+        {
+            "title": "21 GB/s CSV Parsing Using SIMD on AMD 9950X",
+            "link": "https://nietras.com/2025/05/09/sep-0-10-0/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272924"
+        },
+        {
+            "title": "ALICE detects the conversion of lead into gold at the LHC",
+            "link": "https://www.home.cern/news/news/physics/alice-detects-conversion-lead-gold-lhc",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272927"
+        },
+        {
+            "title": "Show HN: Hyper \u2013 Standards first React alternative",
+            "link": "https://nuejs.org/blog/standards-first-react-alternative/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272930"
+        },
+        {
+            "title": "Data manipulations alleged in study that paved way for Microsoft's quantum chip",
+            "link": "https://www.science.org/content/article/data-manipulations-alleged-study-paved-way-microsoft-s-quantum-chip",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272933"
+        },
+        {
+            "title": "Show HN: Hyvector \u2013 A fast and modern SVG editor",
+            "link": "https://www.hyvector.com",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272936"
+        },
+        {
+            "title": "Itter.sh \u2013 Micro-Blogging via Terminal",
+            "link": "https://www.itter.sh/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272939"
+        },
+        {
+            "title": "LegoGPT: Generating Physically Stable and Buildable Lego",
+            "link": "https://avalovelace1.github.io/LegoGPT/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272943"
+        },
+        {
+            "title": "Hollow Core Fiber (HCF)",
+            "link": "https://www.holightoptic.com/what-is-hollow-core-fiber-hcf%ef%bc%9f/",
+            "source": "Hacker News",
+            "timestamp": "2025-05-09T22:13:21.272946"
         }
     ],
-    "producthunt": []
+    "producthunt": [
+        {
+            "title": "Startup Stash",
+            "description": "Startup Stash is a curated directory of resources and tools to help you build your startup. It includes 400 products in 40 categories, like for example: Idea Generation, Early users, Marketing, Raising Capital and Customer support. Each category consists of 10 handpicked resources and tools, all with their own detail page that displays some info about the product.",
+            "link": "https://www.producthunt.com/posts/startup-stash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 9275,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530602"
+        },
+        {
+            "title": "Wordware",
+            "description": "Wordware is an IDE that enables anyone to build complex AI Agents and applications. Domain experts and engineers can now iterate 20x faster with prebuilt tools, API deployment, tracing, and more. Finally, build high-quality and reliable AI!",
+            "link": "https://www.producthunt.com/posts/wordware?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 7809,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530609"
+        },
+        {
+            "title": "Slack",
+            "description": "Slack is a collaboration hub for work, no matter what work you do. It\u2019s a place where conversations happen, decisions are made, and information is always at your fingertips. With Slack, your team is better connected.",
+            "link": "https://www.producthunt.com/posts/slack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 7295,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530611"
+        },
+        {
+            "title": "Startup Pitch Decks",
+            "description": "",
+            "link": "https://www.producthunt.com/posts/startup-pitch-decks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 5618,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530613"
+        },
+        {
+            "title": "Pexels 2.0",
+            "description": "Pexels is a search engine for free stock photos you can use today. This should be your go-to destination when searching for a photo for your next project, or anything.",
+            "link": "https://www.producthunt.com/posts/pexels-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4642,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530614"
+        },
+        {
+            "title": "remove.bg",
+            "description": "Remove.bg removes the background of any photo 100% automatically: You don't have to manually select the background/foreground layers to separate them - just select your image and instantly download the result image with the background removed!",
+            "link": "https://www.producthunt.com/posts/remove-bg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4475,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530616"
+        },
+        {
+            "title": "Notion 2.0",
+            "description": "Notion is the all-in-one workspace. From notes, tasks, wikis, to database, Notion is all you need. Works great for teams and individuals. Available in the browser, iOS, Mac, and Windows.",
+            "link": "https://www.producthunt.com/posts/notion-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4460,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530617"
+        },
+        {
+            "title": "Good Email Copy",
+            "description": "",
+            "link": "https://www.producthunt.com/posts/good-email-copy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4120,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530619"
+        },
+        {
+            "title": "Coolors",
+            "description": "Coolors is a super fast color schemes generator for designers. Create, save and share perfect palettes in seconds!",
+            "link": "https://www.producthunt.com/posts/coolers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 3915,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530620"
+        },
+        {
+            "title": "Hunter",
+            "description": "Hunter lets you find email addresses in seconds and connect with the people that matter for your business. With 200+ million email addresses indexed, effective search filters and scoring, it's the most powerful email-finding tool ever created.",
+            "link": "https://www.producthunt.com/posts/hunter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 3852,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-09T22:20:57.530622"
+        },
+        {
+            "title": "Startup Stash",
+            "description": "Startup Stash is a curated directory of resources and tools to help you build your startup. It includes 400 products in 40 categories, like for example: Idea Generation, Early users, Marketing, Raising Capital and Customer support. Each category consists of 10 handpicked resources and tools, all with their own detail page that displays some info about the product.",
+            "link": "https://www.producthunt.com/posts/startup-stash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 9274,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376646"
+        },
+        {
+            "title": "Wordware",
+            "description": "Wordware is an IDE that enables anyone to build complex AI Agents and applications. Domain experts and engineers can now iterate 20x faster with prebuilt tools, API deployment, tracing, and more. Finally, build high-quality and reliable AI!",
+            "link": "https://www.producthunt.com/posts/wordware?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 7809,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376654"
+        },
+        {
+            "title": "Slack",
+            "description": "Slack is a collaboration hub for work, no matter what work you do. It\u2019s a place where conversations happen, decisions are made, and information is always at your fingertips. With Slack, your team is better connected.",
+            "link": "https://www.producthunt.com/posts/slack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 7295,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376657"
+        },
+        {
+            "title": "Startup Pitch Decks",
+            "description": "",
+            "link": "https://www.producthunt.com/posts/startup-pitch-decks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 5618,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376658"
+        },
+        {
+            "title": "Pexels 2.0",
+            "description": "Pexels is a search engine for free stock photos you can use today. This should be your go-to destination when searching for a photo for your next project, or anything.",
+            "link": "https://www.producthunt.com/posts/pexels-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4642,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376660"
+        },
+        {
+            "title": "remove.bg",
+            "description": "Remove.bg removes the background of any photo 100% automatically: You don't have to manually select the background/foreground layers to separate them - just select your image and instantly download the result image with the background removed!",
+            "link": "https://www.producthunt.com/posts/remove-bg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4475,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376662"
+        },
+        {
+            "title": "Notion 2.0",
+            "description": "Notion is the all-in-one workspace. From notes, tasks, wikis, to database, Notion is all you need. Works great for teams and individuals. Available in the browser, iOS, Mac, and Windows.",
+            "link": "https://www.producthunt.com/posts/notion-2-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4460,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376663"
+        },
+        {
+            "title": "Good Email Copy",
+            "description": "",
+            "link": "https://www.producthunt.com/posts/good-email-copy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 4119,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376665"
+        },
+        {
+            "title": "Coolors",
+            "description": "Coolors is a super fast color schemes generator for designers. Create, save and share perfect palettes in seconds!",
+            "link": "https://www.producthunt.com/posts/coolers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 3915,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376666"
+        },
+        {
+            "title": "Hunter",
+            "description": "Hunter lets you find email addresses in seconds and connect with the people that matter for your business. With 200+ million email addresses indexed, effective search filters and scoring, it's the most powerful email-finding tool ever created.",
+            "link": "https://www.producthunt.com/posts/hunter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Scraper+%28ID%3A+187964%29",
+            "votes": 3851,
+            "source": "Product Hunt",
+            "timestamp": "2025-05-10T08:45:07.376668"
+        }
+    ]
 }

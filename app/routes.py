@@ -1,34 +1,27 @@
-from fastapi import APIRouter
-from app.scrapers.reddit_spider import fetch_reddit_ideas
-from app.scrapers.hn_spider import fetch_hn_ideas
-from app.scrapers.ph_spider import fetch_ph_ideas
-from app.storage import save_ideas
+import cloudscraper
+import os
+from dotenv import load_dotenv
+from supabase import create_client, Client
 
-router = APIRouter()
+load_dotenv()
 
-@router.get("/reddit")
-def get_reddit_ideas():
-    ideas = fetch_reddit_ideas()
-    save_ideas("reddit", ideas)
-    return {"ideas": ideas}
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+user_id = os.getenv("USER_ID")
 
-@router.get("/hackernews")
-def get_hn_ideas():
-    ideas = fetch_hn_ideas()
-    save_ideas("hackernews", ideas)
-    return {"ideas": ideas}
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-@router.get("/producthunt")
-def get_ph_ideas():
-    print("=== /producthunt endpoint hit ===")
-    ideas = fetch_ph_ideas()
-    print("=== Ideas fetched from scraper ===")
-    print(ideas)
-
-    if ideas:
-        print("✅ Data fetched, saving to JSON")
-        save_ideas("producthunt", ideas)
-    else:
-        print("❌ No data fetched from Product Hunt.")
-
-    return {"ideas": ideas}
+def save_to_supabase(idea):
+    try:
+        print(f"💾 Attempting to save: {idea['title']}")
+        response = supabase.table('ideas').insert(idea).execute()
+        
+        # === New Logging ===
+        if response.status_code == 201 or response.status_code == 200:
+            print(f"✅ Successfully saved: {idea['title']}")
+        else:
+            print(f"❌ Failed to save: {idea['title']}")
+            print(f"🛑 Response: {response}")
+            print(f"🛑 Data Sent: {idea}")
+    except Exception as e:
+        print(f"🚨 Error saving to Supabase: {e}")
